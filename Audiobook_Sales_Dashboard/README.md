@@ -24,12 +24,16 @@ The dashboard is built using **Tableau** with Excel datasets, enabling users to 
 ```text
 Audiobook_Sales_Dashboard/
 │
-├── src/
-│   └── Audiobook_Dashboard_SS.png
+├── dashboard/
+│   └── Audiobook_sales.twb
 │
-├── Audiobbok_sales.twb
-├── Audiobook-reviews.xlsx
-├── Audiobook-sales.xlsx
+├── data/
+│   ├── Audiobook-sales.xlsx
+│   └── Audiobook-reviews.xlsx
+│
+├── images/
+│   └── dashboard.png
+│
 └── README.md
 ```
 
@@ -37,7 +41,7 @@ Audiobook_Sales_Dashboard/
 
 ## Dashboard Preview
 
-![Audiobook Sales Dashboard](src/Audiobook_Dashboard_SS.png)
+![Audiobook Sales Dashboard](images/Audiobook_Dashboard_SS.png)
 
 ---
 
